@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent"
+    tools:context=".FreeCourse">
+
+    <TextView
+        android:id="@+id/freecourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/actor"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="Get Access to free courses offered by Top E-Learning sites from here. "
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/freecourses"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_border"
+                    android:fontFamily="@font/cantora_one"
+                    android:padding="10dp"
+                    android:text="@string/coursera"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/coursera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:layout_marginTop="10dp"
+                    android:text="Coursera"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textview_border"
+                    android:fontFamily="@font/cantora_one"
+                    android:padding="10dp"
+                    android:text="@string/udemy"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/udemy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_background"
+                    android:text="Udemy"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textview_border"
+                    android:fontFamily="@font/cantora_one"
+                    android:padding="10dp"
+                    android:text="@string/udacity"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/udacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:text="Udacity"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textview_border"
+                    android:fontFamily="@font/cantora_one"
+                    android:padding="10dp"
+                    android:text="@string/edx"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/edx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/button_background"
+                    android:text="Edx"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textview_border"
+                    android:fontFamily="@font/cantora_one"
+                    android:padding="10dp"
+                    android:text="@string/stanford"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/stanford"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:text="Stanford"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

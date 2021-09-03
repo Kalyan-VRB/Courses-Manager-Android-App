@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/bungee</item>
+        <item>@font/cantora_one</item>
+        <item>@font/chewy</item>
+        <item>@font/kalam_bold</item>
+    </array>
+</resources>

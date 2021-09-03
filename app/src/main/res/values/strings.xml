@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CoursesManager</string>
+    <string name="hello">Hello</string>
+    <string name="search_here">Search here</string>
+    <string name="ongoing_courses">Ongoing Courses</string>
+    <string name="manage_courses">Manage Courses</string>
+    <string name="upcoming_courses">Upcoming Courses</string>
+    <string name="free_courses">Free Courses</string>
+    <string name="paid_courses">Paid Courses</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="settings">Settings</string>
+    <string name="trending">TRENDING</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_homescreen">MainActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="register_here">Register here.</string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email_id">Email Id</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_2">Line 2</string>
+    <string name="add">ADD</string>
+    <string name="delete">DELETE</string>
+    <string name="coursera">Coursera is an education platform that partners with top universities and organizations worldwide, to offer courses online for anyone to take, for free.</string>
+    <string name="udemy">Udemy is a platform that allows instructors to build online courses on their preferred topics.</string>
+    <string name="udacity">Udacity is an online learning platform for those interested in tech-related subjects such as data analysis, software engineering, artificial intelligence and web development.</string>
+    <string name="edx">edX is an American massive open online course (MOOC) provider created by Harvard and MIT.</string>
+    <string name="stanford">StanFord ,Learn from Stanford instructors and industry experts at no cost to you.</string>
+    <string name="paidCourses">Paid Courses</string>
+    <string name="skillshare">Skillshare is one of the most popular online learning platforms. It has a massive collection of over 20,000 classes that are divided into three categories: Thrive (Lifestyle, Productivity), Build (Business Analytics, Freelance and Enterneuprenship, Leadership and Management, Marketing), and Create (Animation, Film and Video, Graphic Design, Music, Creative Writing, Photography, Web Development, and more).</string>
+    <string name="linkedin">LinkedIn acquired one of the oldest e-learning sites called Lynda, and transferred all content to its own platform - LinkedIn Learning. The company now offers thousands of high-quality courses for all levels, from beginners to advanced, covering a wide array of subjects, including Web Development, Software Programming, Economics, and Business Management.</string>
+    <string name="masterclass">MasterClass is an online learning platform that everyone is talking about. What makes it different is that the courses are taught by world-famous experts and celebrities.</string>
+    <string name="futurelearn">Futurelearn is an online education platform that offers hundreds of courses from the world\'s leading universities. The majority of courses can be audited for free, but access to course tests and a Statement of Participation or Certificate of Achievement becomes available only if you upgrade to a paid course. There is an option of purchasing an unlimited subscription for $249,99 per year that includes access to over 600 short courses.</string>
+    <string name="email_address">Email Address</string>
+
+
+</resources>

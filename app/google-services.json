@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997863464268",
+    "project_id": "courses-manager-fdac1",
+    "storage_bucket": "courses-manager-fdac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997863464268:android:d4b21586cae5737a1703e9",
+        "android_client_info": {
+          "package_name": "com.example.coursesmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997863464268-ug2vhihhgdtn85asqpbacp1si2rr69er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV2mOb1zmJ2BFI9drAboYYBFQ_E4VH7Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997863464268-ug2vhihhgdtn85asqpbacp1si2rr69er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
